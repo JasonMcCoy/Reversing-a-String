@@ -2,22 +2,21 @@
 
 class Program
 {
-
-	public void reverseTheString()
+	public static string reverseTheString(string myString)
 	{
 		//reverse the string
-		char[] originalStringArray = originalString.ToCharArray();
+		char[] originalStringArray = myString.ToCharArray();
 		Array.Reverse(originalStringArray);
 		string reversedString = new string(originalStringArray);
 		Console.WriteLine($"The string reversed is: {reversedString}");
-	}
 
+		return reversedString;
+	}
 
 	static void Main(string[] args)
 	{
 		Console.Write("Please enter a string to reverse: ");
 		var originalString = Console.ReadLine();
-
 
 		if (String.IsNullOrEmpty(originalString))
 		{
@@ -28,20 +27,14 @@ class Program
 
 
 			//reverse the string
-			char[] originalStringArray = originalString.ToCharArray();
-			Array.Reverse(originalStringArray);
-			string reversedString = new string(originalStringArray);
-			Console.WriteLine($"The string reversed is: {reversedString}");
+	        reverseTheString(originalString);
 
 			Console.ReadLine();
 		}
 		else
 		{
 			//reverse the string
-			char[] originalStringArray = originalString.ToCharArray();
-			Array.Reverse(originalStringArray);
-			string reversedString = new string(originalStringArray);
-			Console.WriteLine($"The string reversed is: {reversedString}");
+			reverseTheString(originalString);
 
 			Console.ReadLine();
 		}
