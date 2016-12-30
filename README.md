@@ -1,4 +1,4 @@
-# Reversing a String in C# - I have created an application that gets a string from the user and then simply reverses it. The string will then be displayed back to the user.
+# Reversing a String in C# - I have created a command prompt/terminal window application that gets a string from the user and then simply reverses it. The string will then be displayed back to the user.
 # By Jason McCoy & Jeremy Shanks
 
 Originally I followed Jeremy's article "How to Reverse a String in C#" and added a few things + refactoring:
