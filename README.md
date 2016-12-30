@@ -17,6 +17,7 @@ If you type in Jason McCoy, the results output as the following:
 
 
 Just incase the user forgets to enter in something and press Enter or the Return key, he/she will be prompted with the following:
+
 ![alt tag](http://mccoygames.com/wp-content/uploads/2016/12/Screen-Shot-2016-12-30-at-1.09.27-AM.png)
 
 
